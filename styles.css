@@ -1,0 +1,94 @@
+body
+{
+    min-height:300px;
+    min-width:1200px;
+    margin:2em;
+    background-color: rgb(218, 205, 201);
+}
+
+input
+{   
+    margin-bottom: 1.25em;
+    width:50%;
+    padding:1.5em;
+    font-size:1.5rem;
+    font-weight:bolder;
+    border: 2px solid black;
+    background-color: #ecebeb;
+}
+
+
+.btn
+{
+    padding:1.5em 1.5em;
+    width:15%;
+    margin-right:10px;
+    margin-bottom:10px;
+    border:2px solid black;
+    border-radius:5px;
+    font-weight: bolder;
+    font-size:1.15rem;
+    color:whitesmoke;
+    cursor:pointer;
+}
+
+.deleteAll-btn
+{
+    background-color: rgb(235, 25, 25);
+}
+
+.saveInput-btn
+{
+    background-color: rgb(212, 186, 154);
+}
+
+.saveTab-btn
+{
+    background-color: rgb(227, 185, 68);
+}
+
+ul
+{
+    list-style:none;
+    padding-left:0; 
+}
+
+li
+{
+    margin-bottom:5px;
+}
+
+a
+{
+    color:rgb(14, 6, 2);
+    font-size:2em;  
+    font-weight: bold;
+    font-family: 'Geologica', sans-serif;
+
+}
+
+.saveInput-btn:hover
+{
+    background-color: rgb(154, 192, 157);
+    
+}
+
+.saveTab-btn:hover
+{
+    background-color: rgb(165, 145, 11);
+}
+
+.deleteAll-btn:hover
+{
+    background-color: rgb(169, 37, 7);
+}
+
+a:hover
+{
+    color: rgba(84, 46, 8, 0.693);
+} 
+
+input:hover
+{
+    background-color: rgb(232, 229, 229);
+}
